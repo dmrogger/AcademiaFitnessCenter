@@ -1,0 +1,143 @@
+body {
+	font-family: 'Anton', sans-serif;
+
+	background: rgba(0, 0, 0, 0.7) url(../Imagens/EsteirasAcademia.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: darken;
+	width: 100%;
+}
+
+.sobre-academia h1 {
+	color: #dfc800;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 280px;
+	cursor:default;
+}
+
+.academia-descricao {
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	margin: 1em 300px 0px;
+	cursor:default
+}
+
+.btn-matricula{
+	text-align: center;
+}
+
+.btn-style {
+	margin: 30px 0 30px 0;
+	padding: 15px;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	border: 5px;
+	border-radius: 25px;
+}
+
+.btn-style:hover {
+	transform: scale(1.1);
+	transition: 400ms;
+	background-color: #dfc800;
+	cursor: pointer;
+}
+
+.lista-diferenciais h2 {
+	font-size: 20px;
+	text-decoration: dotted;
+}
+
+.lista-diferenciais {
+	width: 600px;
+	margin: 0 auto;
+	background: #dfc800;
+	text-align: center;
+	padding: 5px;
+	border: 5px;
+	border-radius: 25px;
+}
+
+.lista-diferenciais img{
+	width: 70%;
+}
+
+.lista-diferenciais li {
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+}
+
+.ambientesacademia {
+	width: 1100px;
+	height: 600px;
+	margin:30px auto 0px;
+	background: #dfc800;
+	padding: 5px;
+	border: 5px;
+	border-radius: 25px;
+}
+ 
+.ambientesacademia h3 {
+	color: #000000;
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.tipos-ambientes{
+	width: 1220px;
+	margin: 0 auto;
+	padding-left: 30px;
+}
+
+.tipos-ambientes li {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0 2.6%;
+	padding: 30px 20px;
+	align-content: center;
+}
+
+.tipos-ambientes img {
+	width: 15rem;
+	border-radius: 10%;
+}
+
+h4 {
+	text-align: center;
+	padding-bottom: 5%;
+
+}
+
+.tipos-ambientes-txt {
+	margin-top: 5%;
+	position: absolute;
+	margin-left: 3%;
+	line-height: 1.3rem;
+}
+
+.btn-SaibaMais {
+	position: relative;
+}
+
+.btn-SaibaMais-Style {
+	margin-left: 39%;
+	margin-top: 5%;
+	padding: 15px;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	border: 5px;
+	border-radius: 25px;
+}
+
+.btn-SaibaMais-Style:hover {
+	transform: scale(1.1);
+	transition: 400ms;
+	background-color: #dfc800;
+	cursor: pointer;
+}

@@ -1,0 +1,17 @@
+footer {
+    margin-top: 4%;
+    height: 0.5%;
+	background-color: #dfc800;
+    text-align: center;
+
+}
+
+.imagem-rodape {
+    position: relative;
+    width: 6%;
+}
+
+.imagem-rodape-txt {
+    font-size: 0.8rem;
+
+}

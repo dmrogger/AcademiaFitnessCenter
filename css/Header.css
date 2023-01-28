@@ -1,0 +1,43 @@
+header {
+	height: 50px;
+	background-color: #dfc800;
+	padding: 20px 0;
+}
+
+.imagem-logo img {
+	width: 13%;
+	background-color: #ffffff;
+	border: 3px solid #000000;
+	border-radius: 35px;
+	box-shadow: 8px 4px 5px #000000;
+}
+
+.menu-topo {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+.navegacao {
+	position: absolute;
+	top:30px;
+	right:0;
+}
+
+.navegacao li {
+	display: inline;
+	margin-left: 5px;
+}
+
+.navegacao a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 20px;
+}
+
+.navegacao a:hover {
+	color: #ffffff;
+	transition: 400ms;
+}
